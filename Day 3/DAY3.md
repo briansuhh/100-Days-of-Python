@@ -1,13 +1,13 @@
 # Exercise 1 - Odd or Even
-- Instructions:
+- Instructions:<br>
 Write a program that works out whether if a given number is an odd or even number.
 
-- Input:
-43
+- Input:<br>
+43<br>
 94
 
-- Output:
-This is an odd number.
+- Output:<br>
+This is an odd number.<br>
 This is an even number.
 
 - Code:
@@ -20,14 +20,14 @@ else:
 ```
 
 # Exercise 2 - BMI 2.0
-- Instructions:
+- Instructions:<br>
 Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
 
-- Input:
-weight = 85
+- Input:<br>
+weight = 85<br>
 height = 1.75   
 
-- Output:
+- Output:<br>
 Your BMI is 28, you are slightly overweight.
 
 - Code:
@@ -51,15 +51,15 @@ else:
 ```
 
 # Exercise 3 - Leap Year
-- Instructions:
+- Instructions:<br>
 Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366, with an extra day in February.
 
-- Input:
-2400
+- Input:<br>
+2400<br>
 1989
 
-- Output:
-Leap year.
+- Output:<br>
+Leap year.<br>
 Not leap year.
 
 - Code:
@@ -72,21 +72,21 @@ else:
 ```
 
 # Exercise 4 - Pizza Order Practice
-- Instructions:
-Congratulations, you've got a job at Python Pizza. Your first job is to build an automatic pizza order program.
-Small Pizza: $15
-Medium Pizza: $20
-Large Pizza: $25
-Pepperoni for Small Pizza: +$2
-Pepperoni for Medium or Large Pizza: +$3
+- Instructions:<br>
+Congratulations, you've got a job at Python Pizza. Your first job is to build an automatic pizza order program.<br>
+Small Pizza: $15<br>
+Medium Pizza: $20<br>
+Large Pizza: $25<br>
+Pepperoni for Small Pizza: +$2<br>
+Pepperoni for Medium or Large Pizza: +$3<br>
 Extra cheese for any size pizza: + $1
 
-- Input:
-Size: L
-Pepperoni: Y
+- Input:<br>
+Size: L<br>
+Pepperoni: Y<br>
 Cheese: N
 
-- Output:
+- Output:<br>
 Your final bill is $28.
 
 - Code:
@@ -116,11 +116,11 @@ print(f"Your final bill is: ${prize}.")
 ```
 
 # Exercise 5 - Love Calculator
-- Instructions:
-You are going to write a program that tests the compatibility between two people.
-To work out the love score between two people:
-Take both people's names and check for the number of times the letters in the word TRUE occurs. 
-Then check for the number of times the letters in the word LOVE occurs. 
+- Instructions:<br>
+You are going to write a program that tests the compatibility between two people.<br><br>
+To work out the love score between two people:<br>
+Take both people's names and check for the number of times the letters in the word TRUE occurs. <br>
+Then check for the number of times the letters in the word LOVE occurs. <br>
 Then combine these numbers to make a 2 digit number.
 
 For Love Scores less than 10 or greater than 90, the message should be:
@@ -132,11 +132,11 @@ For Love Scores between 40 and 50, the message should be:
 Otherwise, the message will just be their score. e.g.:
 "Your score is **z**."
 
-- Input:
-name1 = "Kanye West"
+- Input:<br>
+name1 = "Kanye West"<br>
 name2 = "Kim Kardashian"
 
-- Output:
+- Output:<br>
 Your score is 42, you are alright together.
 
 - Code:
@@ -175,7 +175,7 @@ else:
 ```
 
 # Day 3 Project - Treasure Island
-- Instructions:
+- Instructions:<br>
 https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
 
 - Code:

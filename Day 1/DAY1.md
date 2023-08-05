@@ -1,10 +1,10 @@
 # Exercise 1 - Printing
-- Instructions:
+- Instructions:<br>
 Write a program in main.py that prints the same notes from the previous lesson
 
-- Output:
-Day 1 - Python Print Function
-The function is declared like this:
+- Output:<br>
+Day 1 - Python Print Function<br>
+The function is declared like this:<br>
 print('what to print')
 
 - Code:
@@ -15,7 +15,7 @@ print("print('what to print')")
 ```
 
 # Exercise 2 - Debugging Practice
-- Instructions:
+- Instructions:<br>
 Look at the code in the code editor on the right. There are errors in all of the lines of code. Fix the code so that it runs without errors.
 
 - Code with errror:
@@ -26,10 +26,10 @@ print('e.g. print("Hello " + "world))
 print(New lines can be created with a backslash and n.")
 ```
 
-- Output:
-Day 1 - String Manipulation
-String Concatenation is done with the "+" sign.
-e.g. print("Hello " + "world")
+- Output:<br>
+Day 1 - String Manipulation<br>
+String Concatenation is done with the "+" sign.<br>
+e.g. print("Hello " + "world")<br>
 New lines can be created with a backslash and n.
 
 -Code:
@@ -41,13 +41,13 @@ print("New lines can be created with a backslash and n.")
 ```
 
 # Exercise 3 - Input Function
-- Instructions:
+- Instructions:<br>
 Write a program that prints the number of characters in a user's name.
 
-- Input:
+- Input:<br>
 Angela
 
-- Output:
+- Output:<br>
 6
 
 - Code:
@@ -57,15 +57,15 @@ print(len(name))
 ```
 
 # Exercise 4 - Variable
-- Instructions:
+- Instructions:<br>
 Write a program that switches the values stored in the variables a and b.
 
-- Input:
-a: 3
+- Input:<br>
+a: 3<br>
 b: 5
 
-- Output:
-a: 5
+- Output:<br>
+a: 5<br>
 b: 3
 
 - Code:

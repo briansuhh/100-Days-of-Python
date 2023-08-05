@@ -1,11 +1,11 @@
 # Exercise 1 - Data Types
-- Instructions:
+- Instructions:<br>
 Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
 
-- Input:
+- Input:<br>
 39
 
-- Output:
+- Output:<br>
 12
 
 - Code:
@@ -16,14 +16,14 @@ print(sum)
 ```
 
 # Exercise 2 - BMI Calculator
-- Instructions:
+- Instructions:<br>
 Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
 
-- Input:
-weight = 80
+- Input:<br>
+weight = 80<br>
 height = 1.75
 
-- Output:
+- Output:<br>
 26
 
 - Code:
@@ -35,13 +35,13 @@ print(round(bmi))
 ```
 
 # Exercise 3 - Life in Weeks
-- Instructions:
+- Instructions:<br>
 Create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old.
 
-- Input:
+- Input:<br>
 56
 
-- Output:
+- Output:<br>
 You have 12410 days, 1768 weeks, and 408 months left.
 
 - Code:
@@ -57,7 +57,7 @@ print(f"You have {day} days, {week} weeks, and {month} months left.")
 ```
 
 # Day 2 Project - Tip Calculator
-- Instructions:
+- Instructions:<br>
 Make a tip calculator
 
 -Code:
