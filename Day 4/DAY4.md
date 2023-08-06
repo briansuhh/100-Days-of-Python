@@ -47,8 +47,8 @@ You are going to write a program that will mark a spot with an X.<br>
 23
 
 - Output:<br>
-['⬜️', '⬜️', '⬜️']
-['⬜️', '⬜️', '⬜️']
+['⬜️', '⬜️', '⬜️']<br>
+['⬜️', '⬜️', '⬜️']<br>
 ['⬜️', 'X', '⬜️']
 
 - Code:
