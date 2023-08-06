@@ -1,21 +1,15 @@
 # Exercise 1 - Banker Roulette
 - Instructions:<br>
-You are going to write a program that will select a random name from a list of names. The person selected will have to pay for everybody's food bill.<br>
-Important: You are not allowed to use the choice() function.
+You are going to write a program that calculates the average student height from a List of heights.<br>
+Important: You should not use the sum() or len() functions in your answer.
 
 - Input:<br>
-Angela, Ben, Jenny, Michael, Chloe
+156 178 165 171 187
 
 - Output:<br>
-Michael is going to buy the meal today!
+171
 
 - Code:
 ```py
-import random
 
-names_string = input("Give me everybody's names, separated by a comma. ")
-names = names_string.split(", ")
-
-index = random.randint(0, len(names) - 1)
-print(f"{names[index]} is going to buy the meal today!")
 ```
