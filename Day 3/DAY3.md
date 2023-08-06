@@ -35,9 +35,7 @@ Your BMI is 28, you are slightly overweight.
 height = float(input("enter you height in m: "))
 weight = float(input("enter you weight in kg: "))
 
-bmi = weight / height ** 2
-bmi = round(bmi)
-
+bmi = round(weight / height ** 2)
 if bmi < 18.5:
     print(f"Your BMI is {bmi}, you are underweight.")
 elif bmi < 25:
@@ -205,8 +203,8 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 print("Pick your own path.")
-direction = input("\nWhich way do you want to go? (left | right) ")
 
+direction = input("\nWhich way do you want to go? (left | right) ")
 if direction == 'left':
     print()
 else:
@@ -214,7 +212,6 @@ else:
     exit()
 
 if_swim = input("You found a river. What will you do? (swim | wait) ")
-
 if if_swim == "wait":
     print()
 else:
@@ -222,7 +219,6 @@ else:
     exit()
 
 door = input("You waited and a door popped right infront of you. Which door will you pick? (red | blue | yellow) ")
-
 if door == "red":
     print("\nYou got burned by fire.\nGame Over.")
 elif door == "blue":
