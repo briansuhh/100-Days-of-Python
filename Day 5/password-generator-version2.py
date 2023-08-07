@@ -9,18 +9,15 @@ symbol_count = int(input("How many symbols would you like?\n"))
 password = []
 letter = list(string.ascii_letters)
 for i in range(letter_count):
-    index = random.randint(0, len(letter) - 1)
-    password.append(letter[index])
+    password.append(random.choice(letter))
 
 num = list(string.digits)
 for i in range(num_count):
-    index = random.randint(0, len(num) - 1)
-    password.append(num[index])
+    password.append(random.choice(num))
 
 symbol = list(string.punctuation)
 for i in range(symbol_count):
-    index = random.randint(0, len(symbol) - 1)
-    password.append(symbol[index])
+    password.append(random.choice(symbol))
 
 random.shuffle(password)
 password = ''.join(str(item) for item in password)
