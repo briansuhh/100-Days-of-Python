@@ -105,7 +105,7 @@ for i in range(1, 101):
         print(i)
 ```
 
-# Day 5 Project: Create a Password Generator
+# Day 5 Project - Create a Password Generator
 - Code Version 1:
 ```py
 import random
