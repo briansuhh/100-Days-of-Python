@@ -8,15 +8,16 @@ word = random.choice(words.word_list)
 guessed_letters = []
 characters = list(string.ascii_lowercase)
 lives = 6
+
 print(art.title)    
 while 1:
-    found = False
     for i in characters:
         print(i, end=" ")
     letter = input("\nGuess a letter: ") 
     os.system("clear")
 
     print()
+    found = False
     for i in word:
         if i == letter:
             print(f"{letter}", end=" ")
