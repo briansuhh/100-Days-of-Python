@@ -83,4 +83,4 @@ print(f"\nEach person should pay: ${payment:0.2f}")
 ```
 
 - Output:<br>
-![Day 2 Exercise 1](../assets/img/02_project.png)
+![Tip Calculator](../assets/img/02_project.png)

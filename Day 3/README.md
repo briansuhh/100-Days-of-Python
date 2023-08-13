@@ -1,4 +1,5 @@
-# Exercise 1 - Odd or Even
+# Coding Exercises
+## Exercise 1 - Odd or Even
 - Instructions:<br>
 Write a program that works out whether if a given number is an odd or even number.
 
@@ -19,7 +20,10 @@ else:
     print("This is an odd number.")
 ```
 
-# Exercise 2 - BMI 2.0
+- Result:<br>
+![Day 3 Exercise 1](../assets/img/03_exercise_1.png)
+
+## Exercise 2 - BMI 2.0
 - Instructions:<br>
 Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
 
@@ -37,18 +41,21 @@ weight = float(input("enter you weight in kg: "))
 
 bmi = round(weight / height ** 2)
 if bmi < 18.5:
-    print(f"Your BMI is {bmi}, you are underweight.")
+    print(f"\nYour BMI is {bmi}, you are underweight.")
 elif bmi < 25:
-    print(f"Your BMI is {bmi}, you have a normal weight.")
+    print(f"\nYour BMI is {bmi}, you have a normal weight.")
 elif bmi < 30:
-    print(f"Your BMI is {bmi}, you are slightly overweight.")
+    print(f"\nYour BMI is {bmi}, you are slightly overweight.")
 elif bmi < 35:
-    print(f"Your BMI is {bmi}, you are obese.")
+    print(f"\nYour BMI is {bmi}, you are obese.")
 else:
-    print(f"Your BMI is {bmi}, you are clinically obese.")
+    print(f"\nYour BMI is {bmi}, you are clinically obese.")
 ```
 
-# Exercise 3 - Leap Year
+- Result:<br>
+![Day 3 Exercise 2](../assets/img/03_exercise_2.png)
+
+## Exercise 3 - Leap Year
 - Instructions:<br>
 Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366, with an extra day in February.
 
@@ -63,13 +70,16 @@ Not leap year.
 - Code:
 ```py
 year = int(input("Which year do you want to check? "))
-if (year % 4 == 0 and year % 100 != 0) or year % 400:
-    print("Leap year.")
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print("\nLeap year.")
 else:
-    print("Not leap year.")
+    print("\nNot leap year.")
 ```
 
-# Exercise 4 - Pizza Order Practice
+- Result:<br>
+![Day 3 Exercise 3](../assets/img/03_exercise_3.png)
+
+## Exercise 4 - Pizza Order Practice
 - Instructions:<br>
 Congratulations, you've got a job at Python Pizza. Your first job is to build an automatic pizza order program.<br>
 Small Pizza: $15<br>
@@ -89,10 +99,10 @@ Your final bill is $28.
 
 - Code:
 ```py
-print("Welcome to Python Pizza Deliveries!")
-size = input("What size pizza do you want? S, M, or L ")
-add_pepperoni = input("Do you want pepperoni? Y or N ")
-extra_cheese = input("Do you want extra cheese? Y or N ")
+print("Welcome to Python Pizza Deliveries!\n")
+size = input("What size of pizza do you want? (S, M, or L) ")
+add_pepperoni = input("Do you want pepperoni? (Y or N) ")
+extra_cheese = input("Do you want extra cheese? (Y or N) ")
 
 prize = 0
 if size == 'S':
@@ -110,10 +120,13 @@ if size == 'L':
 if extra_cheese == 'Y':
     prize += 1
 
-print(f"Your final bill is: ${prize}.")
+print(f"\nYour final bill is: ${prize}.")
 ```
 
-# Exercise 5 - Love Calculator
+- Result:<br>
+![Day 3 Exercise 4](../assets/img/03_exercise_4.png)
+
+## Exercise 5 - Love Calculator
 - Instructions:<br>
 You are going to write a program that tests the compatibility between two people.<br><br>
 To work out the love score between two people:<br>
@@ -139,7 +152,7 @@ Your score is 42, you are alright together.
 
 - Code:
 ```py
-print("Welcome to the Love Calculator!")
+print("Welcome to the Love Calculator!\n")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 
@@ -165,12 +178,14 @@ count2 += couple.count('e')
 count = count1 + count2
 
 if count < 10 or count > 90:
-    print(f"Your score is {count}, you go together like coke and mentos.")
+    print(f"\nYour score is {count}, you go together like coke and mentos.")
 elif count > 40 and count < 50:
-    print(f"Your score is {count}, you are alright together.")
+    print(f"\nYour score is {count}, you are alright together.")
 else:
-    print(f"Your score is {count}.")
+    print(f"\nYour score is {count}.")
 ```
+- Result:<br>
+![Day 3 Exercise 5](../assets/img/03_exercise_5.png)
 
 # Day 3 Project - Treasure Island
 - Instructions:<br>
@@ -228,3 +243,6 @@ elif door == "yellow":
 else:
     print("\nGame Over.")
 ```
+
+- Output:<br>
+![Treasure Island](../assets/img/03_project.png)
