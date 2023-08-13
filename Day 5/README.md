@@ -164,4 +164,3 @@ random.shuffle(password)
 password = ''.join(str(item) for item in password)
 print(f"Your password is: {password}")
 ```
-
