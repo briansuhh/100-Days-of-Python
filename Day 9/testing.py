@@ -1,10 +1,8 @@
-print("-------------Band Name Generator-------------\n")
-adjective = input("Enter an exciting adjective: ").capitalize()
-city = input("Enter your favorite color: ").capitalize()
-pet = input("Enter the name of your pet: ").capitalize()
+print("-------------------------Tip Calculator-------------------------")
+bill = float(input("\nWhat was the total bill? $"))
+people = int(input("How many people to split the bill? "))
+tip = int(input("What percentage tip would you like to give? 10, 12, or 15? "))
 
-print("\nHere are the generated names for your band:")
-print(f"The {adjective} {city}")
-print(f"The {adjective} {pet}")
-print(f"The {pet} {city}")
-print(f"The {city} {pet}")
+payment = (bill / people) * (1 + (tip/100))
+
+print(f"\nEach person should pay: ${payment:0.2f}")
