@@ -1,8 +1,7 @@
+# Coding Exercises
 ## Exercise 1 - Printing
 - Instructions:<br>
-Write a program in main.py that prints the same notes from the previous lesson
-
-- Output:<br>
+Write a program that prints out the notes below.<br>
 Day 1 - Python Print Function<br>
 The function is declared like this:<br>
 print('what to print')
@@ -14,9 +13,12 @@ print("The function is declared like this:")
 print("print('what to print')")
 ```
 
+- Result:
+![Day 1 Exercise 1](../assets/img/01_exercise_1.png)
+
 ## Exercise 2 - Debugging Practice
 - Instructions:<br>
-Look at the code in the code editor on the right. There are errors in all of the lines of code. Fix the code so that it runs without errors.
+Look at the code below. Fix the code so that it runs without errors.
 
 - Code with errror:
 ```py
@@ -26,19 +28,16 @@ print('e.g. print("Hello " + "world))
 print(New lines can be created with a backslash and n.")
 ```
 
-- Output:<br>
-Day 1 - String Manipulation<br>
-String Concatenation is done with the "+" sign.<br>
-e.g. print("Hello " + "world")<br>
-New lines can be created with a backslash and n.
-
--Code:
+- Code:
 ```py
 print("Day 1 - String Manipulation")
 print('String Concatenation is done with the "+" sign.')
 print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 ```
+
+- Result:
+![Day 1 Exercise 2](../assets/img/01_exercise_2.png)
 
 ## Exercise 3 - Input Function
 - Instructions:<br>
@@ -55,6 +54,9 @@ Angela
 name = input("What is your name? ")
 print(len(name))
 ```
+
+- Result:
+![Day 1 Exercise 3](../assets/img/01_exercise_3.png)
 
 ## Exercise 4 - Variable
 - Instructions:<br>
@@ -81,14 +83,23 @@ print(f"a: {a}")
 print(f"b: {b}")
 ```
 
-## Project: Band Name Generator
+- Result:
+![Day 1 Exercise 4](../assets/img/01_exercise_4.png)
+
+# Project: Band Name Generator
 - Code:
 ```py
-print("Greetings! This program generates a name for your program\n")
-city = input("What city did you grew up in? ")
-pet = input("What is the name of your pet? ")
-print(f"\nYour band name is {city} {pet}.")
+print("-------------Band Name Generator-------------\n")
+adjective = input("Enter an exciting adjective: ").capitalize()
+city = input("Enter your favorite color: ").capitalize()
+pet = input("Enter the name of your pet: ").capitalize()
+
+print("\nHere are the generated names for your band:")
+print(f"The {adjective} {city}")
+print(f"The {adjective} {pet}")
+print(f"The {pet} {city}")
+print(f"The {city} {pet}")
 ```
 
 - Output:
-![Band Name Generator](../assets/img/code.png)
+![Band Name Generator](../assets/img/01_project.png)
