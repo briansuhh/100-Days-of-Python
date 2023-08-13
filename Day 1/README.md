@@ -91,3 +91,4 @@ print(f"\nYour band name is {city} {pet}.")
 ```
 
 - Output:
+![Band Name Generator](/d/Files/Programming/100 Days of Code Python/assets/img/code.png)
