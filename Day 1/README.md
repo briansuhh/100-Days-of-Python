@@ -13,7 +13,7 @@ print("The function is declared like this:")
 print("print('what to print')")
 ```
 
-- Result:
+- Result:<br>
 ![Day 1 Exercise 1](../assets/img/01_exercise_1.png)
 
 ## Exercise 2 - Debugging Practice
@@ -36,7 +36,7 @@ print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 ```
 
-- Result:
+- Result:<br>
 ![Day 1 Exercise 2](../assets/img/01_exercise_2.png)
 
 ## Exercise 3 - Input Function
@@ -55,7 +55,7 @@ name = input("What is your name? ")
 print(len(name))
 ```
 
-- Result:
+- Result:<br>
 ![Day 1 Exercise 3](../assets/img/01_exercise_3.png)
 
 ## Exercise 4 - Variable
@@ -79,11 +79,11 @@ temp = a
 a = b
 b = temp
 
-print(f"a: {a}")
+print(f"\na: {a}")
 print(f"b: {b}")
 ```
 
-- Result:
+- Result:<br>
 ![Day 1 Exercise 4](../assets/img/01_exercise_4.png)
 
 # Project: Band Name Generator
@@ -101,5 +101,5 @@ print(f"The {pet} {city}")
 print(f"The {city} {pet}")
 ```
 
-- Output:
+- Output:<br>
 ![Band Name Generator](../assets/img/01_project.png)
