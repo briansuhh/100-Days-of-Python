@@ -39,7 +39,7 @@ else:
     print("You got attacked by a trout.\nGame Over.")
     exit()
 
-door = input("You waited and a door popped right infront of you. Which door will you pick? (red | blue | yellow) ")
+door = input("You waited and a door popped right infront of you. Which door will you pick? \n(red | blue | yellow) ")
 
 if door == "red":
     print("\nYou got burned by fire.\nGame Over.")
