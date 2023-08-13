@@ -1,4 +1,4 @@
-# Exercise 1 - Data Types
+## Exercise 1 - Data Types
 - Instructions:<br>
 Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
 
@@ -15,7 +15,7 @@ sum = int(num[0]) + int(num[1])
 print(sum)
 ```
 
-# Exercise 2 - BMI Calculator
+## Exercise 2 - BMI Calculator
 - Instructions:<br>
 Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
 
@@ -34,7 +34,7 @@ bmi = weight / (height * height)
 print(round(bmi))
 ```
 
-# Exercise 3 - Life in Weeks
+## Exercise 3 - Life in Weeks
 - Instructions:<br>
 Create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old.
 
@@ -56,11 +56,11 @@ month = 12 * age
 print(f"You have {day} days, {week} weeks, and {month} months left.")
 ```
 
-# Day 2 Project - Tip Calculator
+## Day 2 Project - Tip Calculator
 - Instructions:<br>
 Make a tip calculator
 
--Code:
+- Code:
 ```py
 print("Welcome to the tip calculator")
 bill = float(input("What was the total bill? $"))

@@ -1,4 +1,4 @@
-# Exercise 1 - Printing
+## Exercise 1 - Printing
 - Instructions:<br>
 Write a program in main.py that prints the same notes from the previous lesson
 
@@ -14,7 +14,7 @@ print("The function is declared like this:")
 print("print('what to print')")
 ```
 
-# Exercise 2 - Debugging Practice
+## Exercise 2 - Debugging Practice
 - Instructions:<br>
 Look at the code in the code editor on the right. There are errors in all of the lines of code. Fix the code so that it runs without errors.
 
@@ -40,7 +40,7 @@ print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 ```
 
-# Exercise 3 - Input Function
+## Exercise 3 - Input Function
 - Instructions:<br>
 Write a program that prints the number of characters in a user's name.
 
@@ -56,7 +56,7 @@ name = input("What is your name? ")
 print(len(name))
 ```
 
-# Exercise 4 - Variable
+## Exercise 4 - Variable
 - Instructions:<br>
 Write a program that switches the values stored in the variables a and b.
 
@@ -81,10 +81,13 @@ print(f"a: {a}")
 print(f"b: {b}")
 ```
 
-# Day 1 Project: Band Name Generator
+## Project: Band Name Generator
+- Code:
 ```py
 print("Greetings! This program generates a name for your program\n")
 city = input("What city did you grew up in? ")
 pet = input("What is the name of your pet? ")
 print(f"\nYour band name is {city} {pet}.")
 ```
+
+- Output:
