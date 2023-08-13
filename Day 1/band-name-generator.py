@@ -1,6 +1,10 @@
-print("Welcome to the Band Name Generator")
+print("-------------Band Name Generator-------------\n")
+adjective = input("Enter an exciting adjective: ").capitalize()
+city = input("Enter your favorite color: ").capitalize()
+pet = input("Enter the name of your pet: ").capitalize()
 
-city = input("What is the name of the city you grew up in?\n")
-pet = input("What is your pet's name\n")
-
-print(f"Your band name could be {city} {pet}")
+print("\nHere are the generated names for your band:")
+print(f"The {adjective} {city}")
+print(f"The {adjective} {pet}")
+print(f"The {pet} {city}")
+print(f"The {city} {pet}")
