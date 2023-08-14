@@ -122,7 +122,7 @@ for i in range(1, 101):
 import random
 import string
 
-print("Welcome to the PyPassword Generator")
+print("----------------Password Generator----------------\n")
 letter_count = int(input("How many letters would you like in your password?\n"))
 num_count = int(input("How many numbers would you like?\n"))
 symbol_count = int(input("How many symbols would you like?\n"))
@@ -145,15 +145,18 @@ for i in range(symbol_count):
 
 random.shuffle(password)
 password = ''.join(str(item) for item in password)
-print(f"Your password is: {password}")
+print(f"\nYour password is: {password}")
 ```
+
+- Output:<br>
+![Password Generator Version 1](../assets/img/05_project_1.png)
 
 - Code Version 2:
 ```py
 import random
 import string
 
-print("Welcome to the PyPassword Generator")
+print("----------------Password Generator----------------\n")
 letter_count = int(input("How many letters would you like in your password?\n"))
 num_count = int(input("How many numbers would you like?\n"))
 symbol_count = int(input("How many symbols would you like?\n"))
@@ -173,8 +176,8 @@ for i in range(symbol_count):
 
 random.shuffle(password)
 password = ''.join(str(item) for item in password)
-print(f"Your password is: {password}")
+print(f"\nYour password is: {password}")
 ```
 
 - Output:<br>
-![Password Generator](../assets/img/05_project.png)
+![Password Generator Version 2](../assets/img/05_project_2.png)
