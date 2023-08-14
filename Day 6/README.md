@@ -28,7 +28,7 @@ for i in range(0, 6):
 ```
 
 - Result:<br>
-  ![Day 6 Hurdle 1](../assets/img/06_exercise_1.png)
+![Day 6 Hurdle 1](../assets/img/06_exercise_1.png)
 
 ## Hurdle 2
 
@@ -58,7 +58,7 @@ while not at_goal():
 ```
 
 - Result:<br>
-  ![Day 6 Hurdle 2](../assets/img/06_exercise_2.png)
+![Day 6 Hurdle 2](../assets/img/06_exercise_2.png)
 
 ## Hurdle 3
 
@@ -90,7 +90,7 @@ while not at_goal():
 ```
 
 - Result:<br>
-  ![Day 6 Hurdle 3](../assets/img/06_exercise_3.png)
+![Day 6 Hurdle 3](../assets/img/06_exercise_3.png)
 
 ## Hurdle 4
 
@@ -144,7 +144,7 @@ while not at_goal():
 ```
 
 - Result:<br>
-  ![Day 6 Hurdle 4](../assets/img/06_exercise_4.png)
+![Day 6 Hurdle 4](../assets/img/06_exercise_4.png)
 
 # Project - Reeborg World Maze
 
