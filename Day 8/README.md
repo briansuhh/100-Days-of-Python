@@ -1,4 +1,6 @@
-# Exercise 1 - Paint Area Calculator
+# Coding Exercises
+
+## Exercise 1 - Paint Area Calculator
 - Instructions:<br>
 The instructions on the paint can says that 1 can of paint can cover 5 square meters of wall. Given a random height and width of wall, calculate how many cans of paint you'll need to buy.<br>
 number of cans = (wall height x wall width) ÷ coverage per can.
@@ -24,7 +26,10 @@ coverage = 5
 paint_calc(test_h, test_w, coverage)
 ```
 
-# Exercise 2 - Prime Numbers
+- Result:<br>
+![Day 8 Exercise 1](../assets/img/08_exercise_1.png)
+
+## Exercise 2 - Prime Numbers
 - Instructions:<br>
 You need to write a function that checks whether if the number passed into it is a prime number or not.<br>
 Prime numbers are numbers that can only be cleanly divided by themselves and 1.
@@ -56,7 +61,10 @@ n = int(input("Check this number: "))
 prime_checker(n)
 ```
 
-# Day 8 Project - Caesar Cipher
+- Result:<br>
+![Day 8 Exercise 2](../assets/img/08_exercise_2.png)
+
+# Project - Caesar Cipher
 - Code: 
 ```py
 import string 
@@ -90,3 +98,6 @@ while 1:
     else:
         break
 ```
+
+- Output:<br>
+![Caesar Cipher](../assets/img/08_project.png)

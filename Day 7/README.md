@@ -1,5 +1,6 @@
 # Day 7 Project - Hangman
 - Instructions:<br>
+Make a hangman game.
 
 - Code:
 ```py
@@ -62,4 +63,5 @@ while 1:
         print("You lose.")
         break
 ```
-
+- Result:<br>
+![Hangman](../assets/img/06_project.png)

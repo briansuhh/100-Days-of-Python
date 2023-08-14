@@ -1,4 +1,6 @@
-# Exercise 1 - Average Height
+# Coding Exerices
+
+## Exercise 1 - Average Height
 - Instructions:<br>
 You are going to write a program that calculates the average student height from a List of heights.<br>
 Important: You should not use the sum() or len() functions in your answer.
@@ -25,10 +27,13 @@ average = sum / length
 print(round(average))
 ```
 
-# Exercise 2 - High Score
+- Result:<br>
+![Day 5 Exercise 1](../assets/img/05_exercise_1.png)
+
+## Exercise 2 - High Score
 - Instructions:<br>
-You are going to write a program that calculates the highest score from a List of scores.<br>
-Important: You are not allowed to use the max or min functions.
+You are going to write a program that calculates the highest score from a list of scores.<br>
+Important: You are not allowed to use the max() or min() functions.
 
 - Input:<br>
 78 65 89 86 55 91 64 89
@@ -51,7 +56,10 @@ for score in student_scores:
 print(f"The highest score in the class is: {highest_score}")
 ```
 
-# Exercise 3 - Adding Even Numbers
+- Result:<br>
+![Day 5 Exercise 2](../assets/img/05_exercise_2.png)
+
+## Exercise 3 - Adding Even Numbers
 - Instructions:<br>
 You are going to write a program that calculates the sum of all the even numbers from 1 to 100.<br>
 Thus, the first even number would be 2 and the last one is 100
@@ -105,7 +113,10 @@ for i in range(1, 101):
         print(i)
 ```
 
-# Day 5 Project - Create a Password Generator
+- Result:<br>
+![Day 5 Exercise 3](../assets/img/05_exercise_3.png)
+
+# Project - Password Generator
 - Code Version 1:
 ```py
 import random
@@ -164,3 +175,6 @@ random.shuffle(password)
 password = ''.join(str(item) for item in password)
 print(f"Your password is: {password}")
 ```
+
+- Output:<br>
+![Password Generator](../assets/img/05_project.png)
