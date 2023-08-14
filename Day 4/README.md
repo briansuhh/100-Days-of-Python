@@ -1,4 +1,6 @@
-# Exercise 1 - Heads or Tails
+# Coding Exercises
+
+## Exercise 1 - Heads or Tails
 - Instructions:<br>
 You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails".
 
@@ -16,7 +18,10 @@ else:
     print("Tails")
 ```
 
-# Exercise 2 - Banker Roulette
+- Result:<br>
+![Day 4 Exercise 1](../assets/img/03_exercise_1.png)
+
+## Exercise 2 - Banker Roulette
 - Instructions:<br>
 You are going to write a program that will select a random name from a list of names. The person selected will have to pay for everybody's food bill.<br>
 Important: You are not allowed to use the choice() function.
@@ -37,8 +42,10 @@ names = names_string.split(", ")
 index = random.randint(0, len(names) - 1)
 print(f"{names[index]} is going to buy the meal today!")
 ```
+- Result:<br>
+![Day 4 Exercise 2](../assets/img/04_exercise_2.png)
 
-# Exercise 3 - Treasure Map
+## Exercise 3 - Treasure Map
 - Instructions:<br>
 You are going to write a program that will mark a spot with an X.<br>
 23 = 2nd column and 3rd row
@@ -66,7 +73,10 @@ print(f"\nThe treasure is now in column {position[0]} row {position[1]}")
 print(f"{row1}\n{row2}\n{row3}")
 ```
 
-# Day 4 Project - Rock Paper Scissors
+- Result:<br>
+![Day 4 Exercise 3](../assets/img/04_exercise_3.png)
+
+# Project - Rock Paper Scissors
 - Instructions:<br>
 Create a rock papers scissors game
 
@@ -148,3 +158,6 @@ elif draw == 1:
 else:
     print("You lose.")
 ```
+
+- Output:<br>
+![Rock Paper Scissors Game](../assets/img/04_project.png)
