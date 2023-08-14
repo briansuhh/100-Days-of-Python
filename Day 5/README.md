@@ -75,6 +75,9 @@ for i in range(2, 102, 2):
 print(sum)
 ```
 
+- Result:<br>
+![Day 5 Exercise 3](../assets/img/05_exercise_3.png)
+
 # Exercise 4 - FizzBuzz
 - Instructions:<br>
 You are going to write a program that automatically prints the solution to the FizzBuzz game.<br>
@@ -114,7 +117,7 @@ for i in range(1, 101):
 ```
 
 - Result:<br>
-![Day 5 Exercise 3](../assets/img/05_exercise_3.png)
+![Day 5 Exercise 4](../assets/img/05_exercise_4.png)
 
 # Project - Password Generator
 - Code Version 1:
