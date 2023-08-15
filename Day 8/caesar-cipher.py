@@ -8,13 +8,10 @@ while 1:
     # get the index of all the letters on the message based on the alphabet and add the shift number
     result = ''
     for char in message:
-        if char == " ":
-            result += " "
-        elif char in characters:
+        if char in characters:
             index = characters.index(char)
             if choice == "encode":
                 index = (index + shift) % 26
-                print(index)
             if choice == "decode":
                 index = (index - shift) % 26
             result += characters[index]
