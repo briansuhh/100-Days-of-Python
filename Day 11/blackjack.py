@@ -62,6 +62,9 @@ while 1:
         elif dealer_score > 21:
             final_card()
             print("\nOpponent went over 21. You win.\n")
+        elif dealer_score == player_score:
+            final_card()
+            print("It's a tie.")
         elif dealer_score > player_score:
             final_card()
             print("\nYou lose.\n")
@@ -70,3 +73,5 @@ while 1:
             print("\nYou win.\n")
     else:
         exit()
+
+
