@@ -1,6 +1,6 @@
 import random
 
-NUM = random.randint(1, 101)
+NUM = random.randint(1, 100)
 print(NUM)  
 
 def guess_the_number():
