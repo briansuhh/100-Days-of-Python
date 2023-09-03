@@ -50,7 +50,7 @@ f"""
 # Project: {project_name}
 - Instructions:<br>
 
-- [{project_name} Code]({file_name})
+- [{project_name} Code]({file_name}.py)
 
 - Output:<br>
 ![{project_name}](../assets/img/{date}_project.png)
