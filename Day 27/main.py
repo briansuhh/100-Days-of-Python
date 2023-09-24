@@ -4,21 +4,10 @@ def calculate():
     result = float(input.get()) * 1.60934
     result_label.config(text=result)
 
-def center_window(window):
-    window.update_idletasks()
-    screen_width = window.winfo_screenwidth()
-    screen_height = window.winfo_screenheight()
-    
-    x = (screen_width - window.winfo_reqwidth()) // 2
-    y = (screen_height - window.winfo_reqheight()) // 2
-    
-    window.geometry(f"+{x}+{y}")
-
-
 window = tkinter.Tk()
 window.title("Mile to Km Converter")
 window.config(padx=30, pady=30)
-center_window(window)   
+window.geometry("+550+350")
 
 
 # Entry
