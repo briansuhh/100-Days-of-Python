@@ -2,40 +2,12 @@ import os
 import shutil
 
 
-def title_template(file):
-    # create the title template
-    file.write(
-f"""# Coding Exercises
-#### Click the toggle button to show the picture of the output.
-
----
-"""
-    )
-
-
-def exercise_template(file, date):
+def exercise_template():
     # create the exercise template
     exercise_len = int(input("Exercise length: "))
     os.mkdir("Exercise")
     os.chdir("Exercise")
     for j in range(1, exercise_len + 1):
-        exercise_name = input(f"Exercise {j} title: ")
-        file.write(
-f"""
-## Exercise {j} - {exercise_name}
-- Instructions:<br>
-
-- [{exercise_name} Code](exercise{j}.py)
-
-<details>
-<summary>Output:</summary>
-
-![Day {date} Exercise {j}](../assets/img/{date}_exercise_{j}.png)
-</details>
-
----
-"""
-        )
         os.system(f"touch exercise{j}.py")
         
     os.chdir("..")
@@ -43,21 +15,22 @@ f"""
 
 def project_template(file, date):
     # create the project template
-    file_name = input("Project file name: ")
     project_name = input("Project name: ")
+    instructions = input("Instructions: ")
     file.write(
 f"""
 # Project: {project_name}
 - Instructions:<br>
+{instructions}
 
-- [{project_name} Code]({file_name}.py)
+- [{project_name} Code](main.py)
 
 - Output:<br>
 ![{project_name}](../assets/img/{date}_project.png)
 """
     )
 
-    os.system(f"touch {file_name}.py")
+    os.system(f"touch main.py")
 
 
 def folder_automate():
@@ -73,14 +46,10 @@ def folder_automate():
 
     # create a markdown file    
     with open("README.md", "w") as file:
-        print("\n\n---------------------README.md Contents---------------------\n")
-        title_template(file)
+        if input("Exercise? (y/n): ") == "y":
+            exercise_template()
 
-        if input("Put exercise template? (y/n): ") == 'y':
-            exercise_template(file, date)
-
-        if input("Put project template? (y/n): ") == 'y':
-            project_template(file, date)
+        project_template(file, date)
 
     os.chdir("..")
 
