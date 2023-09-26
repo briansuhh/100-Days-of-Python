@@ -3,4 +3,4 @@ venv/
 */main.spec
 */__pycache__/
 
-assets
+assets/
