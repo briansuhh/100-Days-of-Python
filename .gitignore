@@ -2,3 +2,5 @@ venv/
 */build/
 */main.spec
 */__pycache__/
+
+assets
