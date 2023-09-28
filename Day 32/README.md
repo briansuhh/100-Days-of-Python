@@ -1,9 +1,9 @@
 
-# Project: n
+# Project: Email Automation
 - Instructions:<br>
-n
+Create an automated email that will send a birthday wish to your friend.
 
-- [n Code](main.py)
+- [Email Automation Code](main.py)
 
 - Output:<br>
-![n](../assets/img/32_project.png)
+![Email Automation](../assets/img/32_project.png)
