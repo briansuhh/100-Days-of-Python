@@ -2,3 +2,6 @@ venv/
 */build/
 */main.spec
 */__pycache__/
+
+# crontab logs
+crontab_log/log.txt
